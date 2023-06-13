@@ -1,4 +1,5 @@
-package exercice;
+package main.java.exercice;
+
 
 import java.util.*;
 

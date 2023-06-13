@@ -1,3 +1,5 @@
+package test.java;
+
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.junit.runners.JUnit4;
@@ -6,7 +8,7 @@ import exercice.Exercice;
 import java.util.*;
 
 public class ExerciceTest {
-    @Test
+    @test
     public void testSolution() {
         // Chaine simple avec ordre complet
         assertEquals(List.of("666","the", "the", "number", "of", "beast"), Exercice.solution("666, the number of the beast",List.of('6', 't', 'n', 'o', 'b')));
