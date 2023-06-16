@@ -6,6 +6,8 @@ import org.junit.runners.JUnit4;
 
 import exercice.Exercice;
 import java.util.*;
+import main.java.exercice.*;
+
 
 public class ExerciceTest {
     @test
